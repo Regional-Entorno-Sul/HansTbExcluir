@@ -9,5 +9,19 @@ Portanto, devem ser excluídas do banco de dados do SINAN NET, notificações de
 5-Teste molecular rápido (TMR-TB) não detectável, inconclusivo ou não realizado.  
 Quando um arquivos de notificações de TB é gerado no SINAN NET e colocada na pasta apropriada do HansTbExcluir (dbf/tb), o programa identifica quais casos são compatíveis com os cinco critérios mostrados acima e o resultado é disponibilizado em uma planilha de extensão DBF na subpasta "out".
 
+Sintaxe do executável:
+
+~~~
+HansTbExcluir.exe [--agravo] [/opção].
 
 
+--agravo              Escolhe o agravo a ser processado. Podem ser dois: --tb e --hans.
+
+/opção               A opção /andamento, inclui nos critérios histopatologia e cultura o item "em andamento" quando este for marcado na notificação do caso.
+~~~
+
+
+
+
+
+  
